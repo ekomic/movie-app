@@ -2,24 +2,26 @@ import React from "react";
 
 const Navbar = () => {
   return (
-    <nav className="bg-blue-800 flex w-full h-full items-center">
-      <div className="container">
-        <h1 className="text-4xl text-purple-800 text-center">EkoMovies</h1>
+    <div className="w-screen h-[80px] z-10 bg-zinc-200 fixed drop-shadow-bg">
+      <div className="px-4 flex justify-between items-center w-full h-full">
+        <a href="/" className="flex items-center ">
+          <h1 className="text-3xl font-bold mr-4">EkoMovies</h1>
+        </a>
+        <ul className="hidden md:flex ml-auto">
+          <li>
+            <a className="text-blue-400" href="/">
+              Home
+            </a>
+          </li>
+          <li>
+            <a href="/movies">Movies</a>
+          </li>
+          <li>
+            <a href="/contact">Contact</a>
+          </li>
+        </ul>
       </div>
-      <ul className="flex ml-auto mx-3">
-        <li>
-          <a className="text-blue-500" href="/">
-            Home
-          </a>
-        </li>
-        <li>
-          <a href="/contact">Contact</a>
-        </li>
-        <li>
-          <a href="/movies">Movies</a>
-        </li>
-      </ul>
-    </nav>
+    </div>
   );
 };
 
