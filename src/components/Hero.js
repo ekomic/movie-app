@@ -21,8 +21,8 @@ const Hero = () => {
   };
 
   return (
-    <div>
-      <h1 className="hero-header text-4xl">World of Movies</h1>
+    <div className="app">
+      <h1 className="hero-header">World of Movies</h1>
 
       <div className="search">
         <input

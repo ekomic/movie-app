@@ -6,20 +6,23 @@ import Contact from "./pages/Contact";
 import Home from "./pages/Home";
 import Movies from "./pages/Movies";
 import Hero from "./components/Hero";
-
-// const API_URL = `http://www.omdbapi.com/?i=tt3896198&apikey=${process.env.REACT_APP_Movie_API_KEY}`;
+import Footer from "./components/Footer";
 
 const App = () => {
   return (
     <Router>
       <Navbar />
-      <div className="app">
+      <div>
         <Routes>
           <Route path="/" exact element={<Home />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/movies" element={<Movies />} />
         </Routes>
         <Hero />
+        <Footer/>
+        {/* <Home />
+        <Contact />
+        <Movies /> */}
       </div>
     </Router>
   );
