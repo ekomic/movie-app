@@ -1,0 +1,31 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto+Slab:100,300,400,700");
+@import url("https://fonts.googleapis.com/css?family=Raleway:300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i");
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base{
+    li{
+      @apply p-4
+    }
+
+    .nav-link{
+      @apply hover:text-yellow-600 
+      transition-all
+      font-roboto
+      text-[1.1rem]
+    }
+
+   
+}
+
+.mobile-nav{
+  /* background-color: #1111; */
+  transition: 1s all ease-in-out;
+}
+
+/* @keyframes navSlide {
+  translate
+} */

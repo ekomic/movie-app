@@ -19,19 +19,19 @@ body {
 
 .app {
   padding: 4rem;
-
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
 }
 
-h1 {
+.hero-header {
+  padding-top: 2.5rem;
   font-size: 3rem;
   letter-spacing: 0.9px;
   background: linear-gradient(
-    90deg,
-    rgba(249, 211, 180, 1) 0%,
+    20deg,
+    rgb(249, 211, 180) 0%,
     rgba(249, 211, 180, 0) 100%
   );
   background-clip: text;
@@ -41,7 +41,7 @@ h1 {
 }
 
 .search {
-  width: 71%;
+  width: 76%;
   margin: 4rem 0 2rem;
 
   display: flex;
@@ -62,7 +62,6 @@ h1 {
   font-family: var(--font-raleway);
   font-weight: 500;
   padding-right: 1rem;
-
   outline: none;
   color: #a1a1a1;
   background: #1f2123;
