@@ -15,14 +15,11 @@ const App = () => {
       <div>
         <Routes>
           <Route path="/" exact element={<Home />} />
-          <Route path="/contact" element={<Contact />} />
-          <Route path="/movies" element={<Movies />} />
+          <Route path="/contact" exact element={<Contact />} />
+          <Route path="/movies" exact element={<Movies />} />
         </Routes>
         <Hero />
         <Footer/>
-        {/* <Home />
-        <Contact />
-        <Movies /> */}
       </div>
     </Router>
   );
