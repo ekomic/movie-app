@@ -10,7 +10,7 @@ const handleToggle = () => setNav(!nav)
     <div className="w-screen h-[80px] z-10 bg-zinc-200 fixed drop-shadow-lg">
       <div className="px-5 flex justify-between items-center w-full h-full">
         <a href="/" className="flex items-center">
-          <h1 className="text-[2rem] font-bold font-raleway mr-4">
+          <h1 className="text-[1.7rem] font-bold font-raleway mr-4">
             Eko<span className="text-yellow-700">Movies</span>
           </h1>
         </a>
